@@ -28,7 +28,7 @@ export default function DonateCard({image , name , age , location , bloodGrp}) {
 
             <div className='flex flex-row gap-5 '>
               <button className='p-[10px] border-none rounded bg-red-400 text-white font-semibold' onClick={()=>{navigate('/calendar')}}>Donate Blood</button>
-              <button className='p-[10px] border-none rounded bg-red-400 text-white font-semibold'>Chat</button>
+              <button className='p-[10px] border-none rounded bg-red-400 text-white font-semibold' onClick={()=>{navigate('/chat')}}>Chat</button>
             </div>
 
        

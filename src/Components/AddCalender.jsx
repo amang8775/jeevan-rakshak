@@ -78,11 +78,12 @@ function Calendar() {
       <div className='flex flex-col gap-5 justify-center items-center leading-6' >
         {session ?
           <>
+          
             <h2 className='font-bold text-2xl mt-5'>Hey there {session.user.email}</h2>
             <p>Start of your event</p>
-            <DateTimePicker onChange={setStart} value={start} className="flex text-xl " />
+            <DateTimePicker onChange={setStart} value={start} className="flex text-xl rounded-xl border-2" />
             <p>End of your event</p>
-            <DateTimePicker onChange={setEnd} value={end} />
+            <DateTimePicker onChange={setEnd} value={end} />  
             <p>Event name</p>
             <input type="text" onChange={(e) => setEventName(e.target.value)} />
             <p>Event description</p>
