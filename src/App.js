@@ -10,6 +10,7 @@ import Registration from './Pages/Registration';
 import RequestForm from './RequestForm';
 import Chat from './Chat';
 import Calendar from './Components/AddCalender';
+import Profile from './profile.jsx'
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <Route path='/donateBlood' element = {<Donate/>} />
           <Route path='/chat' element = {<Chat/>} />
           <Route path='/calendar' element = {<Calendar/>} />
+          <Route path='/profile' element = {<Profile/>} />
+        
         </Routes>
         
 

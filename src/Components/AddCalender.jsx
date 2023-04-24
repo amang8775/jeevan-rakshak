@@ -36,6 +36,7 @@ function Calendar() {
       console.log(error);
     }
   }
+  
 
   async function signOut() {
     await supabase.auth.signOut();
